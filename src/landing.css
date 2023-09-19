@@ -1,0 +1,29 @@
+.two-halves-container {
+    display: flex;
+    height: 93vh; /* Set the container height to the viewport height */
+}
+
+.left-half,
+.right-half {
+    flex: 1; /* Each half takes up equal space */
+}
+
+.left-half {
+    background-color: rgba(15, 24, 10, 0.88);
+    color: white;
+    font-size: 3rem;
+}
+
+.right-half {
+    background-image: url("../public/dtu_bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container_company {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100%; /* Set height to 100% of viewport height to center vertically */
+}
